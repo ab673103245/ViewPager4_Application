@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"> <!-- 一定要加固定高度，否则就显示不出来 -->
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewPager"
+
+        android:layout_height="200dp">
+        <!--这个也是一定要写固定高度，否则也是显示不出来 -->
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
